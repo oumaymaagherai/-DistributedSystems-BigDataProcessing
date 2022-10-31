@@ -10,10 +10,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>CustomerService</artifactId>
+    <artifactId>BiService</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>CustomerService</name>
-    <description>CustomerService</description>
+    <name>BillingService</name>
+    <description>BillingService</description>
     <properties>
         <java.version>17</java.version>
         <spring-cloud.version>2021.0.4</spring-cloud.version>

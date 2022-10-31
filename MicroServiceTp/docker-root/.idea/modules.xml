@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../openlab-customer-service/CustomerService.iml" filepath="$PROJECT_DIR$/../openlab-customer-service/CustomerService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../enset-billing-service/CustomerService (1).iml" filepath="$PROJECT_DIR$/../enset-billing-service/CustomerService (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/docker-root.iml" filepath="$PROJECT_DIR$/docker-root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gateway/gateway.iml" filepath="$PROJECT_DIR$/../gateway/gateway.iml" />
+    </modules>
+  </component>
+</project>
