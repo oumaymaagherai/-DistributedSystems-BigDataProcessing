@@ -87,6 +87,22 @@ accéder à billing-service à partir de la gateway
 ![image](https://user-images.githubusercontent.com/79479398/199189753-022e1596-d010-4002-beda-ac89ebfdd567.png)
 
 
+## Docker-compose : 
+
+![image](https://user-images.githubuse-rcontent.com/79479398/199221318-6fe91b34-9623-484e-a0e5-14f61500a32d.png)
+
+
+![image](https://user-images.githubusercontent.com/79479398/199223702-f7a7951a-2ae5-4a96-9ac7-e17693187ad2.png)
+
+![image](https://user-images.githubusercontent.com/79479398/199223860-77107b9f-72c0-4ce4-a28b-42244f1ae94f.png)
+
+![image](https://user-images.githubusercontent.com/79479398/199224000-0b8b8297-00c6-4fdb-8b14-cb4627e99331.png)
+
+
+![image](https://user-images.githubusercontent.com/79479398/199223658-e82bff4f-e429-44e8-88d8-c9076756650d.png)
+
+
+
 
 
 
