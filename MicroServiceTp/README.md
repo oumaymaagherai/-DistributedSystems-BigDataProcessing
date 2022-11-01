@@ -32,6 +32,10 @@ la communication entre Billing-service et customer-service est fait à partir Op
 
 ![image](https://user-images.githubusercontent.com/79479398/198993484-454cc341-9ea8-4832-8add-a861b485df66.png)
 
+test de la couche web avec swagger-ui:
+
+![image](https://user-images.githubusercontent.com/79479398/199217796-f816b350-1077-49e4-ba24-462e689c5c78.png)
+
 List des factures : Get
 
 ![image](https://user-images.githubusercontent.com/79479398/199187599-0bc4f526-206f-4f83-becf-6aca37a6a91b.png)
