@@ -2,10 +2,15 @@
 Dans ce TP, nous somme amené à mettre en oeuvre une application distribuée basée sur deux micro-services ;Customer-service et Billing-service.
 ## Customer-service : 
 c'est un micro-service qui permet de gérer les clients,
+
 ![image](https://user-images.githubusercontent.com/79479398/198992968-95574566-57ee-4a8a-88bc-83017b24f5f9.png)
+
 test de la couche web avec swagger-ui: 
+
 ![image](https://user-images.githubusercontent.com/79479398/198996287-2df69c31-8942-4e4a-93a4-493cf3978e33.png)
+
 List des customers :  Get  
+
 ![image](https://user-images.githubusercontent.com/79479398/198996526-aac10267-7f6c-425c-922b-b7392516e7b0.png)
 
 Ajouter un customer : POST 
@@ -23,33 +28,61 @@ retourner un customer par son id :
 
 ## Billing-service: 
 c'est un micro-service qui gére la factures
+la communication entre Billing-service et customer-service est fait à partir OpenFeign
 
 ![image](https://user-images.githubusercontent.com/79479398/198993484-454cc341-9ea8-4832-8add-a861b485df66.png)
 
+List des factures : Get
+
 ![image](https://user-images.githubusercontent.com/79479398/199187599-0bc4f526-206f-4f83-becf-6aca37a6a91b.png)
+
+Ajouter une facteur : Post
 
 ![image](https://user-images.githubusercontent.com/79479398/199187739-9449422e-8b39-4ea4-8f01-d7e72880b8ac.png)
 
 ![image](https://user-images.githubusercontent.com/79479398/199187822-521e4a31-3265-4698-b4b3-16f1a4bbff7c.png)
 
+List des facteurs d'un customer : GetByCustomer
+
 ![image](https://user-images.githubusercontent.com/79479398/199187997-aa944dd1-7e02-4589-82c5-e53a8a5df2b3.png)
 
 ![image](https://user-images.githubusercontent.com/79479398/199188187-455bcc2e-94cd-4815-be75-3882e22f1182.png)
+
+Obtenir un facteur par son id : getById
 
 ![image](https://user-images.githubusercontent.com/79479398/199188300-24c1332e-b4b1-4a06-be4b-95af680e361c.png)
 
 ![image](https://user-images.githubusercontent.com/79479398/199188360-e0f0f808-a001-4ee6-afa1-08c65ede723d.png)
 
+## Eureka-Server :
+Eureka Server contient les informations sur toutes les micro-services client . Chaque micro service s'enregistrera sur le serveur Eureka et le serveur Eureka connaît toutes les applications client exécutées sur chaque port et adresse IP. 
+
+![image](https://user-images.githubusercontent.com/79479398/199212172-3d35c66d-280d-47fe-b8c4-55b691dc5631.png)
+
+lancement de sereveur eureka sur le port 8761 : 
+
 ![image](https://user-images.githubusercontent.com/79479398/199188579-af597ffa-535d-464f-b002-858c1b37ca9e.png)
+
+## Gateway-Service
+Gateway-service est un point d'accès unique et agit comme un proxy pour les micro-service customer et billing.
+  
+![image](https://user-images.githubusercontent.com/79479398/199213455-16a3a548-f116-4688-8315-8d3de74f4daa.png)
+
+accéder à customer-service à partir de la gateway
 
 ![image](https://user-images.githubusercontent.com/79479398/199188697-6ae28b79-4bee-451e-9aa8-1c1dc7490615.png)
 
 ![image](https://user-images.githubusercontent.com/79479398/199188795-fec75ffc-b77f-4988-af01-3d147169bbd1.png)
+
+accéder à billing-service à partir de la gateway
 
 ![image](https://user-images.githubusercontent.com/79479398/199189039-a3b96fec-8283-4966-ab79-1ba444d9a5fa.png)
 
 ![image](https://user-images.githubusercontent.com/79479398/199189573-ebfe74d8-ef64-4188-aac2-36882b607424.png)
 
 ![image](https://user-images.githubusercontent.com/79479398/199189753-022e1596-d010-4002-beda-ac89ebfdd567.png)
+
+
+
 
 
