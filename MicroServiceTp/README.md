@@ -90,16 +90,29 @@ accéder à billing-service à partir de la gateway
 ## Docker-compose : 
 ![image](https://user-images.githubusercontent.com/79479398/199224492-b4339ae5-565d-480a-92d3-3d94e76f8a02.png)
 
+pour chaque  micro-service: 
 
+  -Premiérement, Générer un jar par la commande -mvn clean install
+  -ensuite, Créer un fichier Dockerfile qui contient la configuration suivante de création d'une image, ce qui différe le nom de Jar-file pour chaque micro-service : 
+  
 ![image](https://user-images.githubusercontent.com/79479398/199223702-f7a7951a-2ae5-4a96-9ac7-e17693187ad2.png)
+
+- après , Créer un répertoire dans laquelle on va rassmbler le jar et DockerFile 
+- puis, Créer un fichier docker-compose dans laquelle on va appeler les quatres images en même temps et exécuter également leurs conteneurs 
 
 ![image](https://user-images.githubusercontent.com/79479398/199223860-77107b9f-72c0-4ce4-a28b-42244f1ae94f.png)
 
 ![image](https://user-images.githubusercontent.com/79479398/199224000-0b8b8297-00c6-4fdb-8b14-cb4627e99331.png)
 
+-enfin, démarrer les conteneurs à l'aide de la commande  docker-compose up --build
 
 ![image](https://user-images.githubusercontent.com/79479398/199223658-e82bff4f-e429-44e8-88d8-c9076756650d.png)
 
+Accéder au serveur eureka à partir de contneur eureka-service1 dans l'image docker-root-eureka-service : 
+
+![image](https://user-images.githubusercontent.com/79479398/199319689-cec2d0d9-21f0-4fef-b5dd-b0cac5331879.png)
+
+![image](https://user-images.githubusercontent.com/79479398/199320329-dd1a16f8-c280-4e29-a6cb-3bf05a3c4d83.png)
 
 
 
