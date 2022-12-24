@@ -25,8 +25,8 @@
     <bytecodeTargetLevel>
       <module name="CustomerService" target="16" />
       <module name="CustomerService (1)" target="16" />
-      <module name="EurekaService" target="17" />
-      <module name="gateway" target="17" />
+      <module name="EurekaService" target="16" />
+      <module name="gateway" target="16" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

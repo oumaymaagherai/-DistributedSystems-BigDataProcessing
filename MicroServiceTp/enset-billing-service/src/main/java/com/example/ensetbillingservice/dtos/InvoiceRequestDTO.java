@@ -17,5 +17,4 @@ import java.util.Date;
 public class InvoiceRequestDTO {
     private BigDecimal amount;
     private  String customerId ;
-
 }

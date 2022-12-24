@@ -1,0 +1,28 @@
+POST http://localhost:8081/actuator/refresh
+Accept: application/json
+
+<> 2022-11-13T125018.200.json
+
+###
+
+POST http://localhost:8081/actuator/refresh
+Accept: application/json
+
+<> 2022-11-13T124417.200.json
+
+###
+
+POST http://localhost:8081/actuator/refresh
+Accept: application/json
+
+<> 2022-11-13T124255.200.json
+
+###
+
+POST http://localhost:8081/actuator/refresh
+Accept: application/json
+
+<> 2022-11-13T124109.404.json
+
+###
+
